@@ -1,25 +1,53 @@
 {
   "expo": {
-    "name": "moneyproj",
-    "slug": "moneyproj",
+    "name": "SPENDY",
+    "slug": "spendy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "scheme": "spendy",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0A"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.spendy.app",
+      "permissions": [
+        "RECEIVE_SMS",
+        "READ_SMS",
+        "CAMERA",
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "BIND_NOTIFICATION_LISTENER_SERVICE",
+        "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+        "VIBRATE"
+      ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SPENDY needs camera access to scan bills for splitting."
+        }
+      ],
+      "expo-sqlite",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow SPENDY to use Face ID to secure your financial data."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "spendy-app"
+      }
     }
   }
 }
