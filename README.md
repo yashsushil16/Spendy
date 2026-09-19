@@ -13,13 +13,12 @@
 
 ## 📸 App Screenshots
 
-| Home Dashboard | Envelope Budgeting | Debt & UPI Pay | Scan & Split Bill |
-| :---: | :---: | :---: | :---: |
-| <img src="assets/screenshots/home.png" width="220" alt="Home Dashboard" /> | <img src="assets/screenshots/envelopes.png" width="220" alt="Envelope Budgeting" /> | <img src="assets/screenshots/debts.png" width="220" alt="Debt Tracking" /> | <img src="assets/screenshots/scan_split.png" width="220" alt="Scan & Split" /> |
-
-> 📌 *Note: Upload your screenshot PNG images to `assets/screenshots/home.png`, `assets/screenshots/envelopes.png`, `assets/screenshots/debts.png`, and `assets/screenshots/scan_split.png`.*
+| Home Dashboard | Ledger History | Envelope Budgeting | Debt & UPI Pay | Scan & Split Bill |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="assets/screenshots/home.jpg" width="180" alt="Home Dashboard" /> | <img src="assets/screenshots/ledger.jpg" width="180" alt="Ledger History" /> | <img src="assets/screenshots/envelopes.jpg" width="180" alt="Envelope Budgeting" /> | <img src="assets/screenshots/debts.jpg" width="180" alt="Debt Tracking" /> | <img src="assets/screenshots/scan_split.jpg" width="180" alt="Scan & Split" /> |
 
 ---
+
 
 ## ✨ Key Features
 
